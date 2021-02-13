@@ -105,12 +105,14 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-nmap ]hs <Plug>GitGutterStageHunk
-nmap ]hu <Plug>GitGutterUndoHunk
-nmap ]hp <Plug>GitGutterPreviewHunk
+" to use this, use the keys literally (press ] then h then s, etc.)
 
-nmap ]h <Plug>GitGutterNextHunk
-nmap [h <Plug>GitGutterPrevHunk
+nmap ]hs <Plug>(GitGutterStageHunk)
+nmap ]hu <Plug>(GitGutterUndoHunk)
+nmap ]hp <Plug>(GitGutterPreviewHunk)
+
+nmap ]h <Plug>(GitGutterNextHunk)
+nmap [h <Plug>(GitGutterPrevHunk)
 
 
 " for syntastic
@@ -129,9 +131,23 @@ cnoreabbrev NT NERDTreeTabsToggle
 cnoreabbrev NT NERDTreeTabsToggle
 
 cnoreabbrev tb tabedit
+cnoreabbrev Tb tabedit
+cnoreabbrev Gs Gstatus
 
 
 let g:nerdtree_tabs_open_on_console_startup=1
 
 
 let NERDTreeShowHidden=1
+
+let g:airline_theme='murmur'
+
+
+" You can now copy stuff using yank directly to the clipboard (to CMD+V)
+set clipboard=unnamed
+
+" syntastic
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 1
+
+colorscheme solarized
