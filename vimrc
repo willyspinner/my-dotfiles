@@ -128,7 +128,7 @@ nmap <Right> gt
 "
 cnoreabbrev W w
 cnoreabbrev NT NERDTreeTabsToggle
-cnoreabbrev NT NERDTreeTabsToggle
+cnoreabbrev Nt NERDTreeTabsToggle
 
 cnoreabbrev tb tabedit
 cnoreabbrev Tb tabedit
@@ -151,3 +151,6 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 1
 
 colorscheme solarized
+
+" vim easymotion binding. WILLYNOTE: This may fk up some stuff tho 
+map <Leader> <Plug>(easymotion-prefix)
