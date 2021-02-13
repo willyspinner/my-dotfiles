@@ -10,3 +10,5 @@ https://github.com/sheerun/vim-polyglot
 git@github.com:rking/ag.vim.git
 https://github.com/airblade/vim-gitgutter.git
 https://tpope.io/vim/surround.git
+https://github.com/ervandew/supertab
+https://github.com/christoomey/vim-tmux-navigator
