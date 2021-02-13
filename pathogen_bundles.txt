@@ -1,0 +1,12 @@
+https://github.com/vim-airline/vim-airline
+https://github.com/vim-airline/vim-airline-themes 
+https://tpope.io/vim/fugitive.git
+https://github.com/codota/tabnine-vim
+https://github.com/jistr/vim-nerdtree-tabs.git
+https://github.com/preservim/nerdtree.git
+https://github.com/vim-syntastic/syntastic.git
+https://github.com/flazz/vim-colorschemes.git
+https://github.com/sheerun/vim-polyglot
+git@github.com:rking/ag.vim.git
+https://github.com/airblade/vim-gitgutter.git
+https://tpope.io/vim/surround.git
