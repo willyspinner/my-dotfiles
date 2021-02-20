@@ -154,3 +154,6 @@ colorscheme solarized
 
 " vim easymotion binding. WILLYNOTE: This may fk up some stuff tho 
 map <Leader> <Plug>(easymotion-prefix)
+
+" EASIER EASYMOTION YOO
+nmap c <Leader>
