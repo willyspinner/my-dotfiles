@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-if [ -d ~/.tmux.conf ]; then
+if [ -e ~/.tmux.conf ]; then
 	mv ~/.tmux.conf ~/.tmux.conf-old
 fi
 

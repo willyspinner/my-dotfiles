@@ -24,7 +24,7 @@ cat pathogen_bundles.txt | tr ' ' '\n' | uniq | xargs -P 3 -I % bash -c 'git clo
 
 
 # lol for colors
-cp vim-folder/bundle/colorschemes/colors/* vim-folder/colors
+cp vim-folder/bundle/vim-colorschemes.git/colors/* vim-folder/colors
 
 
 
