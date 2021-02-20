@@ -149,6 +149,7 @@ set clipboard=unnamed
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 1
 
+set background=dark
 colorscheme solarized
 
 " vim easymotion binding. WILLYNOTE: This may fk up some stuff tho 
