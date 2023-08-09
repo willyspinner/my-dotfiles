@@ -157,3 +157,14 @@ map <Leader> <Plug>(easymotion-prefix)
 
 " EASIER EASYMOTION YOO
 nmap c <Leader>
+
+
+" FZF stuff
+cnoreabbrev fz FZF
+" Git blame
+"
+"
+cnoreabbrev Gbl Git blame
+
+" NERD TREE
+cnoreabbrev ntf NERDTreeFind

@@ -14,3 +14,4 @@ https://github.com/ervandew/supertab
 https://github.com/christoomey/vim-tmux-navigator
 https://github.com/easymotion/vim-easymotion
 git@github.com:junegunn/fzf.git
+git@github.com:pechorin/any-jump.vim.git
