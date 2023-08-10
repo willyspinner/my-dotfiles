@@ -165,6 +165,7 @@ cnoreabbrev fz FZF
 "
 "
 cnoreabbrev Gbl Git blame
+cnoreabbrev gbl Git blame
 
 " NERD TREE
 cnoreabbrev ntf NERDTreeFind
