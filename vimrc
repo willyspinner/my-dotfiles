@@ -168,3 +168,8 @@ cnoreabbrev Gbl Git blame
 
 " NERD TREE
 cnoreabbrev ntf NERDTreeFind
+
+
+" spacing and tabs
+set tabstop=2
+set shiftwidth=2
