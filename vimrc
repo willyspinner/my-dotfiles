@@ -174,3 +174,5 @@ cnoreabbrev ntf NERDTreeFind
 " spacing and tabs
 set tabstop=2
 set shiftwidth=2
+
+let g:NERDTreeWinSize=20
