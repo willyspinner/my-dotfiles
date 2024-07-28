@@ -2,7 +2,7 @@ https://github.com/vim-airline/vim-airline
 https://github.com/vim-airline/vim-airline-themes 
 https://tpope.io/vim/fugitive.git
 https://github.com/codota/tabnine-vim
-https://github.com/jistr/vim-nerdtree-tabs.git
+https://github.com/willyspinner/vim-nerdtree-tabs.git
 https://github.com/preservim/nerdtree.git
 https://github.com/vim-syntastic/syntastic.git
 https://github.com/flazz/vim-colorschemes.git
