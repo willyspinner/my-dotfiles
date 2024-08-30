@@ -128,6 +128,7 @@ nmap <Right> gt
 cnoreabbrev W w
 cnoreabbrev NT NERDTreeTabsToggle
 cnoreabbrev Nt NERDTreeTabsToggle
+cnoreabbrev nt NERDTree
 
 cnoreabbrev tb tabedit
 cnoreabbrev Tb tabedit
@@ -161,6 +162,7 @@ nmap c <Leader>
 
 " FZF stuff
 cnoreabbrev fz FZF
+cnoreabbrev Fz FZF
 " Git blame
 "
 "
@@ -176,3 +178,7 @@ set tabstop=2
 set shiftwidth=2
 
 let g:NERDTreeWinSize=20
+
+cnoreabbrev sep set paste
+cnoreabbrev snp set nopaste
+
